@@ -1,0 +1,30 @@
+{
+	"info": {
+		"name": "MusicRoom",
+		"_postman_id": "d4dd67cd-2768-a4e8-720a-10e21fd815ea",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sendmail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{ip}}:{{port}}/sendmail",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"sendmail"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

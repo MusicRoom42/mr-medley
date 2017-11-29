@@ -1,0 +1,35 @@
+/login:
+  - post: login a user
+
+/register:
+  - post: register a new user
+
+/user:
+  - get: get his profile
+  - put: modify his profile
+  - delete: remove his profile
+
+/user/user_id:
+  - get: get user profile
+
+/playlist:
+  - post: create a new playlist
+
+/playlist/playlist_is:
+  - get: get playlist information
+  
+/playlist/playlist_is/music:
+  - get: get playlist music list
+  - post: add new music into playlist
+  - delete: remove music into playlist
+
+/music/music_id:
+  - get: get info on music
+
+/music/music_id/like:
+  - get: get information anout users like his music
+  - post: like music
+
+/music/music_id/unlike:
+  - get: get information anout users unlike his music
+  - post: unlike musics

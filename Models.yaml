@@ -1,0 +1,46 @@
+User:
+  - id
+  - email
+  - password
+  - username
+  - avatar
+
+Social Network:
+  - userId
+  - facebook
+  - twitter
+  - google
+
+Music Provider:
+  - userId
+  - Deezer
+
+Notification:
+  - userId
+  - emailInvitations
+  - mobileInvitations
+
+Playlist:
+  - id
+  - ownerId
+  - type
+  - cover_tiny
+  - cover_large
+  - circle_code
+  - shared
+  - played
+  - musicList
+  - userInvited
+  - userAccepted
+  - userAccessRight
+
+Music:
+  - id
+  - name
+  - cover
+  - artist
+  - album
+  - date
+  - genre
+  - likeBy
+  - unlikeBy
