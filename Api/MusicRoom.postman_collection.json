@@ -7,19 +7,39 @@
 	},
 	"item": [
 		{
-			"name": "sendmail",
+			"name": "user",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "{{ip}}:{{port}}/sendmail",
+					"raw": "{{ip}}:{{port}}/user",
 					"host": [
 						"{{ip}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"sendmail"
+						"user"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{ip}}:{{port}}/user",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"user"
 					]
 				},
 				"description": ""
