@@ -1,0 +1,8 @@
+rabbimq
+api:
+    nodejs
+mail:
+    nodejs
+db:
+    graphQL
+    postGres
